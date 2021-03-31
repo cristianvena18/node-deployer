@@ -1,0 +1,11 @@
+{
+   "branch": "master",
+   "version": 1,
+   "folder": "",
+   "github": "",
+   "commands": {
+      "build": "yarn build",
+      "start": "pm2 start dist/server.js --name server",
+      "stopOldApp": "pm2 delete server"
+   }
+}
